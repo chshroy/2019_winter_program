@@ -1,4 +1,4 @@
-//n!  big_number
+//n! 
 #include<iostream>
 using namespace std;
 
