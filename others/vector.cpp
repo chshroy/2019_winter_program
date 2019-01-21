@@ -15,13 +15,17 @@ int main() {
 	cout<<endl;
 	
 	cout<<"加十個數字"<<endl; //{1,2,}
-	for(int i=1;i<=10;i++) v.push_back(i);  //{1,2,3,4,5,6,7,8,...50}
+	for(int i=1;i<=10;i++) v.push_back(i);  //{1,2,3,4,5,6,7,8,9,10}
 	wer(v.size());
 	wer(v.at(0));
 	wer(v[0]);
 	wer(v.at(10));
 	
 	wer(v.front()); //v[0]
+	wer(v.back()); //v[v.size()-1]
+	
+	//刪掉最後一個東東
+	v.pop_back(); 
 	wer(v.back()); //v[v.size()-1]
 	 
 	//走訪元素 
