@@ -19,10 +19,10 @@ int main() {
 				v[i].push_back(v[i-1][j]-2);
 			}
 			for(int j=0;j<v[i].size();j++) cout<<"f("<<v[i][j]<<") "; 
-			cout<<endl;
+			cout<<'\n';
 		}
-		cout<<"f("<<n<<") = "<<v[n-1].size()<<endl;
-		cout<<endl;
+		cout<<"f("<<n<<") = "<<v[n-1].size()<<'\n';
+		cout<<'\n';
 	}
 	
 }
